@@ -40,3 +40,4 @@ int main()
     return 0;
 }
 ```
+![image](https://github.com/user-attachments/assets/0ed28592-d21d-4dbd-a021-4f46f62050f4)
