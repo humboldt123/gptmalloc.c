@@ -21,8 +21,9 @@ int main()
         ptr[i] = i + 1;
     }
 
-    for (int i = 0; i < 5; i++) {
-        printf("%d ", ptr[i]);
+    for (int i = 0; i < 5; i++)
+    {
+	printf("%d ", ptr[i]);
     }
     printf("\n");
 
@@ -39,7 +40,8 @@ int main()
         gpt_ptr[i] = i + 1;
     }
 
-    for (int i = 0; i < 5; i++) {
+    for (int i = 0; i < 5; i++)
+    {
         printf("%d ", gpt_ptr[i]);
     }
      printf("\n");
