@@ -2,6 +2,11 @@
 
 Ai powered memory management.
 
+Set your GPT API Key as an enviroment variable
+```
+LLM_API_KEY=
+```
+
 ```c
 #include <stdio.h>
 #include <stdlib.h>
