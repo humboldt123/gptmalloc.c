@@ -1,11 +1,8 @@
 ## gptmalloc.c
 
-Ai powered memory management.
+AI powered memory management.
 
-Set your GPT API Key as an enviroment variable
-```
-LLM_API_KEY=
-```
+## Example
 
 ```c
 #include <stdio.h>
@@ -15,29 +12,26 @@ LLM_API_KEY=
 
 int main()
 {
+    // allocate your memory using natural language 👇
     int* gpt_ptr = (int*)malloc_with_ai("Enough memory to store up to five integers.");
-    
-    // test gpt ptr
-    printf("testing gpt ptr...\n");
-    if (gpt_ptr == NULL)
-    {
-        printf("gpt pointer allocation failed\n");
-        return 1;
-    }
 
     for (int i = 0; i < 5; i++)
     {
         gpt_ptr[i] = i + 1;
     }
 
-    for (int i = 0; i < 5; i++)
-    {
-        printf("%d ", gpt_ptr[i]);
-    }
-    printf("\n");
-
+    // returns a pointer just like malloc(), make sure to free it when you're done 😉
     free(gpt_ptr);
     return 0;
 }
 ```
-![image](https://github.com/user-attachments/assets/0ed28592-d21d-4dbd-a021-4f46f62050f4)
+
+## Setup
+Set your OpenAI API Key as an enviroment variable
+```
+export LLM_API_KEY=sk_openai_api_key_goes_here;
+```
+
+## Endorsed by ElanMakesGames
+<img width="758" alt="image" src="https://github.com/user-attachments/assets/e6d64ce5-a00f-4f44-a566-2e0ce9fc913f">
+
