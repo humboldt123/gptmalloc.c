@@ -32,6 +32,6 @@ Set your OpenAI API Key as an enviroment variable
 export LLM_API_KEY=sk_openai_api_key_goes_here;
 ```
 
-## Endorsed by ElanMakesGames
+## Endorsed by [ElanMakesGames](https://github.com/Elan-Rubin)
 <img width="758" alt="image" src="https://github.com/user-attachments/assets/e6d64ce5-a00f-4f44-a566-2e0ce9fc913f">
 
